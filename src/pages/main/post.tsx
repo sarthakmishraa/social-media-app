@@ -79,7 +79,6 @@ export const Post = (props: Props) => {
                     { post.description }
                 </div>
                 <div className="inline-flex gap-2">
-                    <img src={ user?.photoURL || "" } width={50} alt="postDP" />
                     <p className="font-semibold text-2xl text-left text-slate-600">Author: { post.username }</p>
                 </div>
                 <div>

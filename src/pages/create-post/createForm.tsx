@@ -46,9 +46,10 @@ export const CreateForm = () => {
 
     return(
         <form onSubmit={handleSubmit(onCreatePost)}>
-            <input type="text" placeholder="Enter title here" {...register("title")} className="w-64 h-12 border-2 border-slate-300 rounded-md p-1" />
+            <p className="font-semibold text-2xl mb-5">Give your world a title and share what's going on!</p>
+            <input type="text" placeholder="Start with a captivating title!" {...register("title")} className="w-64 h-12 border-2 border-slate-300 rounded-md p-1" />
             <h3 className="text-red-700 font-semibold">{ errors.title?.message }</h3>
-            <textarea placeholder="Enter description here" {...register("description")} className="w-96 h-48 border-2 border-slate-300 rounded-md p-1 mt-5" />
+            <textarea placeholder="Share it with the community!" {...register("description")} className="w-[800px] h-96 border-2 border-slate-300 rounded-md p-1 mt-5" />
             <h3 className="text-red-700 font-semibold">{ errors.description?.message }</h3>
             <input type="submit" className="cursor-pointer bg-indigo-500 text-white text-xl font-semibold p-2 rounded-md mt-5 active:scale-75 transition-all" />
         </form>

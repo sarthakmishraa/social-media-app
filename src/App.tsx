@@ -5,6 +5,7 @@ import { Contact } from './pages/contact';
 import { Login } from './pages/login';
 import { CreatePost } from './pages/create-post/createPost';
 import Navbar from './components/Navbar';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/createpost' element={<CreatePost />} />
         <Route path='/login' element={<Login />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
