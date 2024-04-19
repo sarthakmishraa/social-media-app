@@ -50,7 +50,7 @@ export const CreateForm = () => {
             <h3 className="text-red-700 font-semibold">{ errors.title?.message }</h3>
             <textarea placeholder="Enter description here" {...register("description")} className="w-96 h-48 border-2 border-slate-300 rounded-md p-1 mt-5" />
             <h3 className="text-red-700 font-semibold">{ errors.description?.message }</h3>
-            <input type="submit" className="cursor-pointer bg-indigo-500 text-white text-xl font-semibold p-2 rounded-md mt-5" />
+            <input type="submit" className="cursor-pointer bg-indigo-500 text-white text-xl font-semibold p-2 rounded-md mt-5 active:scale-75 transition-all" />
         </form>
     )
 };
