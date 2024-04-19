@@ -41,7 +41,6 @@ export const Main = () => {
                 postsList ? (
                     postsList.map((post) => (
                         <>
-                            <h1 className="text-4xl font-semibold">Posts</h1>
                             <Post post={post} />
                         </>
                     ))
