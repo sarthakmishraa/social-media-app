@@ -2,7 +2,7 @@ import profilePic from "../media/profile-pic.jpg";
 
 export const Contact = () => {
     return(
-        <div className="bg-slate-200 font-semibold px-10 py-5 text-center space-x-4">
+        <div className="min-h-[750px] bg-slate-200 font-semibold px-10 py-5 text-center space-x-4">
             <h1 className="text-2xl font-semibold py-5">Contact Me</h1>
             <div className="flex justify-center items-center gap-5">
                 <div>
