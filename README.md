@@ -15,14 +15,14 @@ A TypeScript web app hosted on Netlify with Firebase backend, allowing users to 
 - User authentication via Google sign-in.
 - Create posts with titles and descriptions.
 - Firebase backend for database management.
-- TypeScript for frontend development.
+- TypeScript & TailwindCSS for frontend development.
 - Hosted on Netlify for easy deployment and scalability.
 
 ## Description
-SM Social Media is a simple yet effective platform for users to share their thoughts and ideas with others. With the power of Firebase backend, users can securely sign in using their Google accounts and seamlessly create posts with titles and descriptions. The frontend is built using TypeScript, ensuring type safety and improved code quality. The application is hosted on Netlify, providing reliability and scalability for handling user traffic.
+SM Social Media is a simple yet effective platform for users to share their thoughts and ideas with others. With the power of Firebase backend, users can securely sign in using their Google accounts and seamlessly create posts with titles and descriptions. The frontend is built using TypeScript & TailwindCSS, ensuring type safety and improved code quality. The application is hosted on Netlify, providing reliability and scalability for handling user traffic.
 
 ## Tech Used
-- TypeScript
+- TypeScript & TailwindCSS
 - Firebase (for backend database)
 - Netlify (for hosting)
 
