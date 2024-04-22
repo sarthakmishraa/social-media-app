@@ -2,7 +2,7 @@ import logo from "../media/logo.png";
 
 export const Footer = () => {
     return(
-        <div className="mt-auto w-[100%] bg-gradient-to-t from-indigo-400 to-slate-200 border-2 border-t-slate-300 border-4 border-b-slate-700 px-48 py-5 font-semibold">
+        <div className="mt-auto lg:w-[100%] xl:px-48 xl:py-5 sm:px-8 sm:py-5 bg-gradient-to-t from-indigo-400 to-slate-200 border-2 border-t-slate-300 border-4 border-b-slate-700 font-semibold">
             <h3 className="text-3xl mb-5 float-left">SM Social Media</h3>
             <div className="flex justify-evenly">
                 <div className="inline-block align-top">

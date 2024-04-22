@@ -16,7 +16,7 @@ const Navbar = () => {
     }
 
     return(
-        <div className='bg-gradient-to-t from-slate-200 to-indigo-400 border-b-2 border-slate-300 px-48 py-10 shadow-lg font-semibold'>
+        <div className='bg-gradient-to-t from-slate-200 to-indigo-400 border-b-2 border-slate-300 xl:px-48 py-10 sm:px-8 shadow-lg font-semibold'>
             <div className='inline-block'>
                 <div className='inline-block'>
                     <Link to='/'>

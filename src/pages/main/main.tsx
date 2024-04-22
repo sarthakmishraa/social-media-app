@@ -4,6 +4,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "../../config/firebase";
 import { useState, useEffect } from "react";
 import { Post } from './post';
+import home_snip from "../../media/home_snip.png"
 
 export interface InterfacePost {
     id: string;
@@ -55,7 +56,13 @@ export const Main = () => {
                         }
                     </>
                 ) : (
-                    <h2 className='font-semibold text-3xl'>Log In to see posts</h2>
+                    <>
+                        <div className='space-y-5'>
+                            <h2 className='font-semibold text-3xl'>Make your mark.</h2>
+                            <h2 className='font-semibold text-2xl'>Sign up today and leave your footprint in the digital world!</h2>
+                            <img src={home_snip} alt='' className='mx-auto w-[720px] rounded-lg shadow-xl' />
+                        </div>
+                    </>
                 )
             }
         </div>
